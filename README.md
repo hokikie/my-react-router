@@ -13,7 +13,7 @@
 ### Router
 - `window.location.name`를 상태로 담아 현재 경로(`currentPath`)를 저장
 - 저장된 경로는 `useCurrentPathContext` hooks로 사용할 수 있도록 함
-- `popstate` 이벤트 리스너를 통해 브라우저 앞,뒤로가기를 탐색할 때 마다 현재 경로로 업데이트되도록 함
+- `popstate` 이벤트 리스너를 통해 브라우저 앞, 뒤로가기를 탐색할 때마다 현재 경로로 업데이트되도록 함
 ### Route
 - `<Router />`의 하위 컴포넌트로서 특정 경로를 정의하여 지정된 경로와 일치할 때 해당 컴포넌트를 렌더링
 ### useRouter
